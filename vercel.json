@@ -1,0 +1,26 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "robprice.com"
+        }
+      ],
+      "destination": "https://robertsonprice.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.robprice.com"
+        }
+      ],
+      "destination": "https://robertsonprice.com/$1",
+      "permanent": true
+    }
+  ]
+}
