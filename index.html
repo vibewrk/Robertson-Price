@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robertson Price — CEO, Builder, AI Strategist</title>
-    <meta name="description" content="Robertson Price is a serial founder and CEO who has been building at the frontier of internet technology for over 25 years. Founder of Ragu.AI and creator of Vibe Working.">
+    <meta name="description" content="Robertson Price is a serial founder and CEO who has been building at the frontier of internet technology for over 25 years. Founder of Ragu.AI, Nourova, Tezit, and more.">
     <meta property="og:title" content="Robertson Price">
     <meta property="og:description" content="Serial founder. 25 years building at the frontier. Now building AI-native businesses.">
     <meta property="og:type" content="website">
@@ -37,7 +37,7 @@
         }
 
         html {
-            font-size: 16px;
+            font-size: 18px;
             scroll-behavior: smooth;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
@@ -119,9 +119,9 @@
             gap: clamp(40px, 6vw, 80px);
             align-items: center;
         }
-        .hero-content { max-width: 560px; }
+        .hero-content { max-width: 580px; }
         .hero-label {
-            font-size: 0.8rem;
+            font-size: 0.78rem;
             font-weight: 500;
             letter-spacing: 0.08em;
             text-transform: uppercase;
@@ -201,7 +201,7 @@
             border-bottom: 1px solid var(--color-border);
         }
         .trajectory-header {
-            max-width: 560px;
+            max-width: 640px;
             margin-bottom: clamp(48px, 6vw, 72px);
         }
         .trajectory-header h2 {
@@ -226,7 +226,7 @@
         .timeline::before {
             content: '';
             position: absolute;
-            left: 59px;
+            left: 89px;
             top: 0;
             bottom: 0;
             width: 1px;
@@ -234,7 +234,7 @@
         }
         .timeline-item {
             display: grid;
-            grid-template-columns: 60px 1fr;
+            grid-template-columns: 90px 1fr;
             gap: 32px;
             padding: 28px 0;
             position: relative;
@@ -242,7 +242,7 @@
         .timeline-item::after {
             content: '';
             position: absolute;
-            left: 55px;
+            left: 85px;
             top: 34px;
             width: 9px;
             height: 9px;
@@ -255,7 +255,7 @@
             background: var(--color-text);
         }
         .timeline-year {
-            font-size: 0.82rem;
+            font-size: 0.85rem;
             font-weight: 500;
             color: var(--color-text-tertiary);
             font-variant-numeric: tabular-nums;
@@ -269,13 +269,12 @@
             letter-spacing: -0.01em;
         }
         .timeline-content p {
-            font-size: 0.9rem;
-            line-height: 1.65;
+            font-size: 0.92rem;
+            line-height: 1.7;
             color: var(--color-text-secondary);
         }
         .timeline-accent {
-            font-family: var(--font-serif);
-            font-style: italic;
+            font-weight: 500;
             color: var(--color-text);
         }
 
@@ -322,24 +321,6 @@
             line-height: 1.65;
             color: var(--color-text-secondary);
         }
-        .advisory-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            margin-top: 28px;
-            font-size: 0.88rem;
-            font-weight: 500;
-            color: var(--color-text);
-            border-bottom: 1px solid var(--color-border);
-            padding-bottom: 4px;
-            transition: border-color 0.2s ease;
-        }
-        .advisory-link:hover { border-color: var(--color-text); }
-        .advisory-link svg {
-            width: 14px; height: 14px;
-            transition: transform 0.2s ease;
-        }
-        .advisory-link:hover svg { transform: translateX(3px); }
 
         /* ========== VENTURES ========== */
         .ventures-header {
@@ -355,18 +336,18 @@
         .ventures-header p {
             font-size: 0.95rem;
             color: var(--color-text-secondary);
-            max-width: 480px;
+            max-width: 520px;
         }
         .ventures-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 24px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
         }
         .venture-card {
             background: var(--color-surface);
             border: 1px solid var(--color-border);
             border-radius: 12px;
-            padding: clamp(28px, 3vw, 40px);
+            padding: clamp(24px, 2.5vw, 32px);
             transition: all 0.3s ease;
             display: flex;
             flex-direction: column;
@@ -377,23 +358,23 @@
             box-shadow: 0 8px 32px rgba(0,0,0,0.04);
         }
         .venture-label {
-            font-size: 0.75rem;
+            font-size: 0.72rem;
             font-weight: 500;
             letter-spacing: 0.06em;
             text-transform: uppercase;
             color: var(--color-text-tertiary);
-            margin-bottom: 16px;
+            margin-bottom: 12px;
         }
         .venture-card h3 {
             font-family: var(--font-serif);
-            font-size: 1.4rem;
+            font-size: 1.25rem;
             font-weight: 500;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             letter-spacing: -0.01em;
         }
         .venture-card p {
-            font-size: 0.9rem;
-            line-height: 1.65;
+            font-size: 0.88rem;
+            line-height: 1.6;
             color: var(--color-text-secondary);
             flex: 1;
         }
@@ -401,8 +382,8 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            margin-top: 24px;
-            font-size: 0.85rem;
+            margin-top: 20px;
+            font-size: 0.82rem;
             font-weight: 500;
             color: var(--color-text);
             opacity: 0;
@@ -537,6 +518,9 @@
         }
 
         /* ========== RESPONSIVE ========== */
+        @media (max-width: 1024px) {
+            .ventures-grid { grid-template-columns: repeat(2, 1fr); }
+        }
         @media (max-width: 768px) {
             .hero-grid {
                 grid-template-columns: 1fr;
@@ -559,7 +543,7 @@
                 opacity: 1;
                 transform: translateX(0);
             }
-            .timeline::before { left: 0; display: none; }
+            .timeline::before { display: none; }
             .timeline-item {
                 grid-template-columns: 1fr;
                 gap: 4px;
@@ -620,9 +604,9 @@
                 <div class="hero-content">
                     <p class="hero-label fade-in">Founder &amp; CEO</p>
                     <h1 class="hero-headline fade-in stagger-1">I've been building on<br>the next wave since<br>before it breaks.</h1>
-                    <p class="hero-bio fade-in stagger-2">I've spent 25 years building companies at the frontier of internet technology — from early search and streaming video to content networks and e-commerce. I've been part of teams that shaped how people use the web. Today I run <a href="https://ragu.ai" class="subtle-link">Ragu.AI</a> and help leaders build AI-native businesses through <a href="https://vibewrk.com" class="subtle-link">Vibe Working</a>.</p>
-                    <a href="#advisory" class="hero-cta fade-in stagger-3">
-                        How I work with leaders
+                    <p class="hero-bio fade-in stagger-2">I've spent 25 years building companies at the frontier of internet technology — from early search and streaming video to content networks and e-commerce. I've been part of teams that shaped how people use the web. Today I run <a href="https://ragu.ai" class="subtle-link">Ragu.AI</a> and build AI-native products across <a href="https://tezit.com" class="subtle-link">communication</a>, <a href="https://nourova.com" class="subtle-link">biometrics</a>, and <a href="https://mypa.chat" class="subtle-link">personal AI</a>.</p>
+                    <a href="#ventures" class="hero-cta fade-in stagger-3">
+                        See what I'm building
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
                     </a>
                 </div>
@@ -641,7 +625,7 @@
         <div class="container">
             <div class="trajectory-header">
                 <h2 class="fade-in">25 years of building<br>at the frontier.</h2>
-                <p class="fade-in stagger-1">Every few years, a technology shift changes how businesses operate. I've been early to each one — not as an observer, but as a builder. I also hold a granted patent for LED lighting technology, and have a patent pending (<a href="https://patents.google.com/patent/US20240414397A1/" class="subtle-link" target="_blank">US 18/330,111</a>) for <a href="https://nourova.com" class="subtle-link" target="_blank">Nourova</a> — a real-time AI system that reads your biometrics and continuously adapts the content you're experiencing based on your physiological response.</p>
+                <p class="fade-in stagger-1">Every few years, a technology shift changes how businesses operate. I've been early to each one — not as an observer, but as a builder. I hold a granted U.S. patent (<a href="https://patents.google.com/patent/US10021455B2/" class="subtle-link" target="_blank">10,021,455</a>) for a system that uses luminaire-based optical communication to identify content and determine viewership — an early step in the thinking that led to <a href="https://nourova.com" class="subtle-link" target="_blank">Nourova</a>, for which I have a patent pending (<a href="https://patents.google.com/patent/US20240414397A1/" class="subtle-link" target="_blank">US 18/330,111</a>) — a real-time AI system that reads biometrics and continuously adapts content based on physiological response.</p>
             </div>
 
             <div class="timeline">
@@ -665,15 +649,15 @@
                     <span class="timeline-year">2005</span>
                     <div class="timeline-content">
                         <h3>Founded one of the earliest streaming video networks</h3>
-                        <p>Built My Video Daily, applying distribution strategies from the search world to streaming video. The platform scaled rapidly in its early months, becoming one of the fastest-growing video properties at a time when YouTube was still in its infancy.</p>
+                        <p>Built My Video Daily, applying distribution strategies from the search world to streaming video. The platform scaled rapidly in its early months, becoming one of the fastest-growing video properties at a time when YouTube was still in its infancy. <span class="timeline-accent">Successfully exited the business in 2008.</span></p>
                     </div>
                 </div>
 
                 <div class="timeline-item fade-in">
                     <span class="timeline-year">2008</span>
                     <div class="timeline-content">
-                        <h3>Co-founded a large-scale content network</h3>
-                        <p>Built what became the Answers Network alongside my partner — growing from a handful of niche sites to hundreds, with a team that scaled to dozens of people. Developed the playbook for programmatic content creation and distribution at scale.</p>
+                        <h3>Founded a large-scale content network</h3>
+                        <p>Built what became the Answers Network — growing from a handful of niche sites to hundreds, with a team that scaled to dozens of people. <span class="timeline-accent">The network reached 32 million monthly visitors.</span> Developed the playbook for programmatic content creation and distribution at scale.</p>
                     </div>
                 </div>
 
@@ -681,7 +665,7 @@
                     <span class="timeline-year">2015</span>
                     <div class="timeline-content">
                         <h3>Acquired and built Rebates.com</h3>
-                        <p>Applied distribution-first thinking to e-commerce, building a discount marketplace through innovative paid acquisition and cross-platform growth strategies.</p>
+                        <p>Applied distribution-first thinking to e-commerce, building a discount marketplace through innovative paid acquisition and cross-platform growth strategies. <span class="timeline-accent">Successfully exited the business in 2023.</span></p>
                     </div>
                 </div>
 
@@ -702,7 +686,7 @@
             <div class="advisory-grid">
                 <div class="advisory-left">
                     <h2 class="fade-in">I've done this<br>transition before.</h2>
-                    <p class="fade-in stagger-1">Every major technology wave requires the same thing: someone who's already built through one to help you build through the next. Through <strong>Vibe Working</strong>, I work with founders and CEOs who are ready to run their businesses with AI — not just talk about it.</p>
+                    <p class="fade-in stagger-1">Every major technology wave requires the same thing: someone who's already built through one to help you build through the next. I work with founders and CEOs who are ready to run their businesses with AI — not just talk about it.</p>
                 </div>
                 <div class="advisory-right">
                     <div class="advisory-item fade-in stagger-1">
@@ -717,10 +701,6 @@
                         <h3>Enterprise AI Infrastructure</h3>
                         <p>Through <a href="https://ragu.ai" class="subtle-link">Ragu.AI</a>, my team builds production-grade AI systems for premium brands — the kind of infrastructure that runs quietly and reliably at scale.</p>
                     </div>
-                    <a href="https://vibewrk.com" class="advisory-link fade-in stagger-4" target="_blank">
-                        Learn more at vibewrk.com
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
-                    </a>
                 </div>
             </div>
         </div>
@@ -731,7 +711,7 @@
         <div class="container">
             <div class="ventures-header">
                 <h2 class="fade-in">What I'm building now.</h2>
-                <p class="fade-in stagger-1">Intelligence as infrastructure. Advisory as leverage.</p>
+                <p class="fade-in stagger-1">AI-native products, enterprise infrastructure, and new protocols for how people communicate and create.</p>
             </div>
             <div class="ventures-grid">
                 <a href="https://ragu.ai" class="venture-card fade-in stagger-1" target="_blank">
@@ -743,10 +723,46 @@
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" /></svg>
                     </span>
                 </a>
-                <a href="https://vibewrk.com" class="venture-card fade-in stagger-2" target="_blank">
+                <a href="https://nourova.com" class="venture-card fade-in stagger-2" target="_blank">
+                    <span class="venture-label">Current &middot; Founder</span>
+                    <h3>Nourova</h3>
+                    <p>Biometric feedback AI that reads real-time physiological signals and continuously adapts content based on your response. Patent pending.</p>
+                    <span class="venture-link">
+                        Visit nourova.com
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" /></svg>
+                    </span>
+                </a>
+                <a href="https://tezit.com" class="venture-card fade-in stagger-3" target="_blank">
+                    <span class="venture-label">Current &middot; Founder</span>
+                    <h3>Tezit</h3>
+                    <p>A communication protocol where context travels with the message. Share ideas with the understanding behind them — intent, focus, background, and evidence.</p>
+                    <span class="venture-link">
+                        Visit tezit.com
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" /></svg>
+                    </span>
+                </a>
+                <a href="https://mypa.chat" class="venture-card fade-in stagger-1" target="_blank">
+                    <span class="venture-label">Current &middot; Founder</span>
+                    <h3>MyPA</h3>
+                    <p>AI personal assistants for teams. Each team member gets their own PA that communicates with others, manages context, and coordinates across channels.</p>
+                    <span class="venture-link">
+                        Visit mypa.chat
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" /></svg>
+                    </span>
+                </a>
+                <a href="https://theaicoder.com" class="venture-card fade-in stagger-2" target="_blank">
+                    <span class="venture-label">Current &middot; Founder</span>
+                    <h3>The AI Coder</h3>
+                    <p>An AI-built apps marketplace where the community backs projects, watches AI agents build in real time, and earns revenue shares when apps launch.</p>
+                    <span class="venture-link">
+                        Visit theaicoder.com
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" /></svg>
+                    </span>
+                </a>
+                <a href="https://vibewrk.com" class="venture-card fade-in stagger-3" target="_blank">
                     <span class="venture-label">Current &middot; Founder</span>
                     <h3>Vibe Working</h3>
-                    <p>Advisory practice for founders and CEOs on AI-native business operations. Live builds, fractional strategy, and the playbook for running a business with AI as a force multiplier.</p>
+                    <p>Content and advisory on AI-native business operations. The playbook for running a business with AI as a force multiplier.</p>
                     <span class="venture-link">
                         Visit vibewrk.com
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" /></svg>
@@ -764,15 +780,15 @@
                 <p class="fade-in stagger-1">On building with AI, running companies, and what happens when you stop treating intelligence as a tool and start treating it as infrastructure.</p>
             </div>
             <div class="writing-list">
-                <a href="https://vibewrk.com/content/what-is-vibe-working" class="writing-item fade-in" target="_blank">
-                    <span class="writing-date">2026</span>
-                    <span class="writing-title">What Is Vibe Working?</span>
-                    <span class="writing-tag">Defining the category</span>
-                </a>
-                <a href="https://www.linkedin.com/in/robertsonprice/" class="writing-item fade-in stagger-1" target="_blank">
+                <a href="https://www.linkedin.com/in/robertsonprice/" class="writing-item fade-in" target="_blank">
                     <span class="writing-date">Ongoing</span>
                     <span class="writing-title">AI-Native Operations &amp; the Builder's Perspective</span>
                     <span class="writing-tag">LinkedIn</span>
+                </a>
+                <a href="https://vibewrk.com/content/what-is-vibe-working" class="writing-item fade-in stagger-1" target="_blank">
+                    <span class="writing-date">2026</span>
+                    <span class="writing-title">What Is Vibe Working?</span>
+                    <span class="writing-tag">Essay</span>
                 </a>
                 <a href="https://vibewrk.com" class="writing-item fade-in stagger-2" target="_blank">
                     <span class="writing-date">Ongoing</span>
@@ -804,10 +820,6 @@
                 <a href="https://twitter.com/robertsonprice" class="contact-link" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                     X
-                </a>
-                <a href="https://vibewrk.com" class="contact-link" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" /></svg>
-                    vibewrk.com
                 </a>
             </div>
         </div>
